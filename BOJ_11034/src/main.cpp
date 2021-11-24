@@ -9,7 +9,7 @@ int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    while (cin) {
+    while (!cin.fail()) {
         auto ab = b - a;
         auto bc = c - b;
 
